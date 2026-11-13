@@ -1,0 +1,10 @@
+{
+  "model_type": "logistic_regression",
+  "random_state": 42,
+  "max_tfidf_features": 500,
+  "classes": [
+    "MAJOR",
+    "MINOR",
+    "WARNING"
+  ]
+}

@@ -16,14 +16,18 @@ data/synthetic/**
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 !data/synthetic/.gitkeep
-models/*
-!models/.gitkeep
+# Models tracking (allow trained baseline weights and model cards)
+!models/**
+!models/**/*.joblib
+!models/**/*.json
+!models/**/*.md
 artifacts/*
 !artifacts/.gitkeep
 *.parquet
 *.feather
 *.pkl
 *.joblib
+!models/**/*.joblib
 *.pt
 *.onnx
 *.zip
