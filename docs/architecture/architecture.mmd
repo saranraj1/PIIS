@@ -1,0 +1,90 @@
+flowchart TD
+  subgraph ExtSources["External Enterprise Systems"]
+    direction TB
+    S1["ServiceNow ITSM Tickets"]
+    S2["Jira Service Desk"]
+    S3["Generic REST Systems"]
+    S4["OSS / NMS Alarms (Nokia/Ericsson/Huawei)"]
+    S5["Prometheus / OTLP Telemetry"]
+  end
+
+  subgraph AdaptLayer["M6 Integration Adapters (src/piis/integrations/)"]
+    direction TB
+    A1["ServiceNowAdapter"]
+    A2["JiraAdapter"]
+    A3["GenericRestAdapter"]
+    A4["OssNmsAlarmAdapter"]
+    A5["PrometheusTelemetryAdapter / OtlpAdapter"]
+  end
+
+  subgraph PipeLayer["M6 Unified Ingestion Pipeline (src/piis/pipeline/)"]
+    direction TB
+    P1["Deduplication Cache (SHA-256 Idempotency)"]
+    P2["Dead-Letter Queue (DLQ Isolation & Replay)"]
+    P3["Security Sanitizer (4-Ring Multilingual Guard)"]
+    P4["Canonical Normalizer (JSON Schema Validator)"]
+  end
+
+  subgraph CoreEngine["PIIS Analytical & Reasoning Core (M1 - M5)"]
+    direction TB
+    C1["Canonical Incident Store"]
+    C2["Telemetry Anomaly Detector"]
+    C3["Topological Correlator (DAG Blast Radius)"]
+    C4["Hybrid Retriever (BM25 + Dense Bi-Encoder)"]
+    C5["Temporal Freshness Evaluator (Time Window Policy)"]
+    C6["Investigation Engine (Evidence Grounding)"]
+  end
+
+  subgraph SecGov["Security, Identity & Governance (M5 - M6)"]
+    direction TB
+    G1["Enterprise AuthManager (OIDC & RBAC Roles)"]
+    G2["Human-in-the-Loop Approval Gate (Service Principal Barred)"]
+    G3["RFC 8785 JCS Canonical Audit Ledger"]
+    G4["Monotonic Checkpoint Anchor (Rollback Defense)"]
+  end
+
+  subgraph ObsLayer["M6 Observability & Gateway Layer (src/piis/api/ & observability/)"]
+    direction TB
+    O1["FastAPI Production REST Gateway (/api/v1)"]
+    O2["Prometheus Metrics Registry (/metrics)"]
+    O3["OpenTelemetry Distributed Tracing"]
+    O4["Structured JSON Logging"]
+    O5["NOC Operator SPA Web Interface (/ui)"]
+  end
+
+  S1 --> A1
+  S2 --> A2
+  S3 --> A3
+  S4 --> A4
+  S5 --> A5
+
+  A1 --> P1
+  A2 --> P1
+  A3 --> P1
+  A4 --> P1
+  A5 --> P1
+
+  P1 -->|Unique Payload| P3
+  P1 -.->|Duplicate| P1
+  P3 -->|Malformed / Poisoned| P2
+  P3 -->|Sanitized| P4
+
+  P4 --> C1
+  C1 --> C2
+  C1 --> C3
+  C1 --> C4
+  C2 --> C5
+  C4 --> C5
+  C3 --> C6
+  C5 --> C6
+
+  C6 --> G2
+  G1 -->|Authenticate & Enforce Human Role| G2
+  G2 -->|Cryptographic Approval / Rejection| G3
+  G3 --> G4
+
+  O1 --> G1
+  O1 --> PipeLayer
+  O1 --> CoreEngine
+  O1 --> ObsLayer
+  O5 --> O1

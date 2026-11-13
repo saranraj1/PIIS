@@ -1,0 +1,27 @@
+# PIIS Telecom Edition — Verified Deterministic Dependency Lockfile
+# Platform: Windows 11 Enterprise (amd64) / Python 3.11.5
+# Generated for Milestone M1-M6 Release Candidate (v1.0.0-rc1)
+
+cryptography==46.0.7
+faiss-cpu==1.13.2
+fastapi==0.128.8
+grpcio==1.74.0
+jsonschema==4.26.0
+numpy==2.4.6
+opentelemetry-api==1.44.0
+opentelemetry-exporter-otlp-proto-grpc==1.44.0
+opentelemetry-sdk==1.44.0
+pandas==2.2.3
+pyarrow==21.0.0
+pydantic==2.12.5
+pyjwt==2.12.1
+pytest==9.0.3
+pytest-asyncio==1.3.0
+pytest-cov==7.1.0
+pyyaml==6.0.3
+rich==14.3.2
+ruff==0.15.10
+scikit-learn==1.6.1
+sentence-transformers==5.2.3
+typer==0.26.2
+uvicorn==0.52.3

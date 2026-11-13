@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piis.local/schemas/telemetry.schema.json",
+  "title": "PIIS Telemetry Observation",
+  "type": "object",
+  "required": [
+    "observation_id",
+    "timestamp",
+    "network_element_id",
+    "metric_name",
+    "source_type"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "observation_id": {
+      "type": "string"
+    },
+    "incident_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "network_element_id": {
+      "type": "string"
+    },
+    "network_domain": {
+      "type": "string"
+    },
+    "metric_name": {
+      "type": "string"
+    },
+    "metric_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_type": {
+      "enum": [
+        "PUBLIC_REAL",
+        "SYNTHETIC",
+        "DERIVED",
+        "HUMAN_ANNOTATED",
+        "OPERATOR_INTERNAL"
+      ]
+    },
+    "source_dataset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_timezone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

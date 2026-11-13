@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piis.local/schemas/alarm.schema.json",
+  "title": "PIIS Alarm",
+  "type": "object",
+  "required": [
+    "alarm_id",
+    "timestamp",
+    "network_element_id",
+    "alarm_code",
+    "source_type"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "alarm_id": {
+      "type": "string"
+    },
+    "incident_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "network_element_id": {
+      "type": "string"
+    },
+    "network_domain": {
+      "type": "string"
+    },
+    "alarm_code": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "CRITICAL",
+        "MAJOR",
+        "MINOR",
+        "WARNING",
+        "UNKNOWN"
+      ]
+    },
+    "probable_cause": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "clear_timestamp": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_type": {
+      "enum": [
+        "PUBLIC_REAL",
+        "SYNTHETIC",
+        "DERIVED",
+        "HUMAN_ANNOTATED",
+        "OPERATOR_INTERNAL"
+      ]
+    },
+    "source_dataset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

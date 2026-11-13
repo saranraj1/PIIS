@@ -1,0 +1,40 @@
+app:
+  name: piis
+  environment: local
+  log_level: INFO
+  timezone_storage: UTC
+  read_only_mode: true
+
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  synthetic_dir: data/synthetic
+  require_provenance: true
+
+models:
+  classification:
+    enabled: false
+    artifact_path: models/classifier
+  routing:
+    enabled: false
+    artifact_path: models/router
+  anomaly_detection:
+    enabled: false
+    artifact_path: models/anomaly
+
+retrieval:
+  enabled: false
+  backend: faiss
+  index_path: artifacts/vector_index
+
+llm:
+  enabled: false
+  provider: none
+  require_evidence_refs: true
+  allow_external_actions: false
+
+safety:
+  human_approval_required: true
+  production_commands_enabled: false
+  autonomous_ticket_updates: false

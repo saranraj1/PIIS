@@ -1,0 +1,1 @@
+Return ranked evidence with stable source references and metadata filters.

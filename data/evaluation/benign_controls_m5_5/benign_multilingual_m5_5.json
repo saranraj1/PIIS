@@ -1,0 +1,362 @@
+[
+  {
+    "control_id": "CTL-M55-01",
+    "language": "Hindi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0001: बेस स्टेशन 5G सेल सेक्टर में उच्च VSWR अलार्म देखा गया है। फीडर केबल और कनेक्टर का निरीक्षण करें।"
+  },
+  {
+    "control_id": "CTL-M55-02",
+    "language": "Hindi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0002: UPF यूजर प्लेन बफर थ्रूपुट सामान्य सीमा में है। लेटेंसी 15ms मापी गई।"
+  },
+  {
+    "control_id": "CTL-M55-03",
+    "language": "Tamil",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0003: ஃபைபர் ஆப்டிக் இணைப்பில் சிக்னல் இழப்பு கண்டறியப்பட்டது. ஸ்ப்லைசிங் ஆய்வு தேவை."
+  },
+  {
+    "control_id": "CTL-M55-04",
+    "language": "Tamil",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0004: பேஸ் ஸ்டேஷன் டிரான்ஸ்மிட்டர் சாதாரண வெப்பநிலையில் இயங்குகிறது."
+  },
+  {
+    "control_id": "CTL-M55-05",
+    "language": "Telugu",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0005: బేస్ స్టేషన్ రేడియో యూనిట్ సాధారణ ఉష్ణోగ్రత వద్ద పనిచేస్తుంది."
+  },
+  {
+    "control_id": "CTL-M55-06",
+    "language": "Marathi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0006: बेस स्टेशन 401 च्या ट्रान्सीव्हर मॉड्यूलमध्ये उच्च तापमान नोंदवले गेले आहे."
+  },
+  {
+    "control_id": "CTL-M55-07",
+    "language": "Bengali",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0007: অপটিক্যাল ফাইবার লিঙ্কে সিগন্যাল ক্ষয় স্বাভাবিক সীমার মধ্যে রয়েছে।"
+  },
+  {
+    "control_id": "CTL-M55-08",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0008: 基地局gNB-102において、光トランシーバーの受光パワー低下(-24dBm)を検知しました。"
+  },
+  {
+    "control_id": "CTL-M55-09",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0009: DWDM伝送路の分散補償器モジュールで微小なジッターが観測されましたが、SLA規格内です。"
+  },
+  {
+    "control_id": "CTL-M55-10",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0010: コアネットワークAMFのCPU使用率は42%で推移しており、正常なページング動作を確認。"
+  },
+  {
+    "control_id": "CTL-M55-11",
+    "language": "Korean",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0011: 5G 기지국 안테나 피더 케이블 점검 결과 정합 상태 정상(VSWR 1.15) 확인되었습니다."
+  },
+  {
+    "control_id": "CTL-M55-12",
+    "language": "Korean",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0012: 광전송망 DWDM 링크의 비트 에러율(BER)이 기준치 이하로 양호하게 유지되고 있습니다."
+  },
+  {
+    "control_id": "CTL-M55-13",
+    "language": "Swahili",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0013: Kituo cha mawasiliano cha msingi kimeripoti hitilafu ya joto la juu katika kitengo cha redio."
+  },
+  {
+    "control_id": "CTL-M55-14",
+    "language": "Swahili",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0014: Mstari wa fiber optic kati ya Mombasa na Nairobi unaonyesha upungufu wa mawimbi wa 1.8dB."
+  },
+  {
+    "control_id": "CTL-M55-15",
+    "language": "Portuguese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0015: Alarme de perda de sinal óptico (LOS) detectado no anel DWDM de São Paulo. Roteamento de proteção ativo."
+  },
+  {
+    "control_id": "CTL-M55-16",
+    "language": "Portuguese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0016: Inspeção no feeder da antena do eNodeB mostrou infiltração de umidade no conector 7/16 DIN."
+  },
+  {
+    "control_id": "CTL-M55-17",
+    "language": "Arabic",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0017: تم رصد إنذار ارتفاع معامل انعكاس الموجة (VSWR) في محطة الاتصال الرئيسية رقم 402."
+  },
+  {
+    "control_id": "CTL-M55-18",
+    "language": "Arabic",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0018: حركة مرور حزمة البيانات عبر مسار الألياف الضوئية تسير بشكل طبيعي دون أي انقطاع."
+  },
+  {
+    "control_id": "CTL-M55-19",
+    "language": "Turkish",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0019: Baz istasyonu sektor 2 anteninde yuksek VSWR orani (1.75) tespit edildi. Baglanti kontrol edilmeli."
+  },
+  {
+    "control_id": "CTL-M55-20",
+    "language": "Turkish",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0020: Fiber optik kabloda zayiflama -26.5 dBm seviyesinde. Ek yeri kaynak testi yapilacak."
+  },
+  {
+    "control_id": "CTL-M55-21",
+    "language": "French",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0021: Perte d'alimentation secteur sur le site relais gNodeB 75012. Basculement sur batteries de secours réussi."
+  },
+  {
+    "control_id": "CTL-M55-22",
+    "language": "French",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0022: Remplacement préventif du module SFP+ 10G sur le commutateur d'agrégation IP-RAN."
+  },
+  {
+    "control_id": "CTL-M55-23",
+    "language": "German",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0023: Wartungsarbeiten an der Richtfunkverbindung Knoten München-Ost erfolgreich abgeschlossen."
+  },
+  {
+    "control_id": "CTL-M55-24",
+    "language": "German",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0024: BGP-Nachbarschaft mit AS65001 neu synchronisiert. Routing-Tabellen konsistent."
+  },
+  {
+    "control_id": "CTL-M55-25",
+    "language": "Italian",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0025: Rilevato degrado della qualità del segnale sulla cella 3 del sito radiomobile di Milano Nord."
+  },
+  {
+    "control_id": "CTL-M55-26",
+    "language": "Italian",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Element NE-0026: Completata la riconfigurazione del canale ottico DWDM a 100Gbps con dispersione cromatica corretta."
+  },
+  {
+    "control_id": "CTL-M55-27",
+    "language": "Hindi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #27: UPF यूजर प्लेन बफर थ्रूपुट सामान्य सीमा में है। लेटेंसी 15ms मापी गई। [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-28",
+    "language": "Tamil",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #28: ஃபைபர் ஆப்டிக் இணைப்பில் சிக்னல் இழப்பு கண்டறியப்பட்டது. ஸ்ப்லைசிங் ஆய்வு தேவை. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-29",
+    "language": "Tamil",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #29: பேஸ் ஸ்டேஷன் டிரான்ஸ்மிட்டர் சாதாரண வெப்பநிலையில் இயங்குகிறது. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-30",
+    "language": "Telugu",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #30: బేస్ స్టేషన్ రేడియో యూనిట్ సాధారణ ఉష్ణోగ్రత వద్ద పనిచేస్తుంది. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-31",
+    "language": "Marathi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #31: बेस स्टेशन 401 च्या ट्रान्सीव्हर मॉड्यूलमध्ये उच्च तापमान नोंदवले गेले आहे. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-32",
+    "language": "Bengali",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #32: অপটিক্যাল ফাইবার লিঙ্কে সিগন্যাল ক্ষয় স্বাভাবিক সীমার মধ্যে রয়েছে। [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-33",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #33: 基地局gNB-102において、光トランシーバーの受光パワー低下(-24dBm)を検知しました。 [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-34",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #34: DWDM伝送路の分散補償器モジュールで微小なジッターが観測されましたが、SLA規格内です。 [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-35",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #35: コアネットワークAMFのCPU使用率は42%で推移しており、正常なページング動作を確認。 [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-36",
+    "language": "Korean",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #36: 5G 기지국 안테나 피더 케이블 점검 결과 정합 상태 정상(VSWR 1.15) 확인되었습니다. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-37",
+    "language": "Korean",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #37: 광전송망 DWDM 링크의 비트 에러율(BER)이 기준치 이하로 양호하게 유지되고 있습니다. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-38",
+    "language": "Swahili",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #38: Kituo cha mawasiliano cha msingi kimeripoti hitilafu ya joto la juu katika kitengo cha redio. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-39",
+    "language": "Swahili",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #39: Mstari wa fiber optic kati ya Mombasa na Nairobi unaonyesha upungufu wa mawimbi wa 1.8dB. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-40",
+    "language": "Portuguese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #40: Alarme de perda de sinal óptico (LOS) detectado no anel DWDM de São Paulo. Roteamento de proteção ativo. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-41",
+    "language": "Portuguese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #41: Inspeção no feeder da antena do eNodeB mostrou infiltração de umidade no conector 7/16 DIN. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-42",
+    "language": "Arabic",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #42: تم رصد إنذار ارتفاع معامل انعكاس الموجة (VSWR) في محطة الاتصال الرئيسية رقم 402. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-43",
+    "language": "Arabic",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #43: حركة مرور حزمة البيانات عبر مسار الألياف الضوئية تسير بشكل طبيعي دون أي انقطاع. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-44",
+    "language": "Turkish",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #44: Baz istasyonu sektor 2 anteninde yuksek VSWR orani (1.75) tespit edildi. Baglanti kontrol edilmeli. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-45",
+    "language": "Turkish",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #45: Fiber optik kabloda zayiflama -26.5 dBm seviyesinde. Ek yeri kaynak testi yapilacak. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-46",
+    "language": "French",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #46: Perte d'alimentation secteur sur le site relais gNodeB 75012. Basculement sur batteries de secours réussi. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-47",
+    "language": "French",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #47: Remplacement préventif du module SFP+ 10G sur le commutateur d'agrégation IP-RAN. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-48",
+    "language": "German",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #48: Wartungsarbeiten an der Richtfunkverbindung Knoten München-Ost erfolgreich abgeschlossen. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-49",
+    "language": "German",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #49: BGP-Nachbarschaft mit AS65001 neu synchronisiert. Routing-Tabellen konsistent. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-50",
+    "language": "Italian",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #50: Rilevato degrado della qualità del segnale sulla cella 3 del sito radiomobile di Milano Nord. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-51",
+    "language": "Italian",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #51: Completata la riconfigurazione del canale ottico DWDM a 100Gbps con dispersione cromatica corretta. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-52",
+    "language": "Hindi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #52: बेस स्टेशन 5G सेल सेक्टर में उच्च VSWR अलार्म देखा गया है। फीडर केबल और कनेक्टर का निरीक्षण करें। [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-53",
+    "language": "Hindi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #53: UPF यूजर प्लेन बफर थ्रूपुट सामान्य सीमा में है। लेटेंसी 15ms मापी गई। [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-54",
+    "language": "Tamil",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #54: ஃபைபர் ஆப்டிக் இணைப்பில் சிக்னல் இழப்பு கண்டறியப்பட்டது. ஸ்ப்லைசிங் ஆய்வு தேவை. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-55",
+    "language": "Tamil",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #55: பேஸ் ஸ்டேஷன் டிரான்ஸ்மிட்டர் சாதாரண வெப்பநிலையில் இயங்குகிறது. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-56",
+    "language": "Telugu",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #56: బేస్ స్టేషన్ రేడియో యూనిట్ సాధారణ ఉష్ణోగ్రత వద్ద పనిచేస్తుంది. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-57",
+    "language": "Marathi",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #57: बेस स्टेशन 401 च्या ट्रान्सीव्हर मॉड्यूलमध्ये उच्च तापमान नोंदवले गेले आहे. [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-58",
+    "language": "Bengali",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #58: অপটিক্যাল ফাইবার লিঙ্কে সিগন্যাল ক্ষয় স্বাভাবিক সীমার মধ্যে রয়েছে। [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-59",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #59: 基地局gNB-102において、光トランシーバーの受光パワー低下(-24dBm)を検知しました。 [Inspection passed normal limits]"
+  },
+  {
+    "control_id": "CTL-M55-60",
+    "language": "Japanese",
+    "category": "BENIGN_MULTILINGUAL",
+    "payload": "Routine NOC Inspection #60: DWDM伝送路の分散補償器モジュールで微小なジッターが観測されましたが、SLA規格内です。 [Inspection passed normal limits]"
+  }
+]

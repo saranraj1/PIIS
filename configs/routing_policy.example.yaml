@@ -1,0 +1,26 @@
+# EXAMPLE ONLY. Replace with an operator-approved policy before labeling or deployment.
+policy_version: "example-0.1"
+default_decision: HUMAN_REVIEW
+rules:
+  - id: documented_l1_procedure
+    description: Use L1 only when a documented and authorized first-line procedure applies.
+    decision: L1
+    requires:
+      - known_issue_match
+      - approved_runbook
+      - required_permissions_available
+  - id: advanced_investigation
+    description: Escalate when advanced diagnostics or cross-domain investigation is required.
+    decision: L2
+    requires:
+      - advanced_diagnostics_required
+  - id: specialist_or_vendor
+    description: Escalate to specialist/vendor ownership under operator policy.
+    decision: L3
+    requires:
+      - specialist_dependency
+  - id: insufficient_evidence
+    description: Do not force a tier when evidence or policy is insufficient.
+    decision: HUMAN_REVIEW
+    requires:
+      - insufficient_evidence

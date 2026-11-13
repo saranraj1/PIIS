@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piis.local/schemas/incident.schema.json",
+  "title": "PIIS Incident",
+  "type": "object",
+  "required": [
+    "incident_id",
+    "description",
+    "network_domain",
+    "created_at",
+    "source_type"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "incident_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "network_domain": {
+      "enum": [
+        "RAN",
+        "5G_CORE",
+        "TRANSPORT",
+        "SERVICE",
+        "CROSS_DOMAIN",
+        "UNKNOWN"
+      ]
+    },
+    "fault_category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "severity": {
+      "enum": [
+        "CRITICAL",
+        "MAJOR",
+        "MINOR",
+        "WARNING",
+        "UNKNOWN"
+      ]
+    },
+    "support_level_label": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "HUMAN_REVIEW",
+        "UNLABELED"
+      ]
+    },
+    "support_level_rationale": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affected_region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affected_subscribers": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "network_element_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "resolved_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "resolution_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "root_cause_confirmed": {
+      "type": "boolean",
+      "default": false
+    },
+    "source_type": {
+      "enum": [
+        "PUBLIC_REAL",
+        "SYNTHETIC",
+        "DERIVED",
+        "HUMAN_ANNOTATED",
+        "OPERATOR_INTERNAL"
+      ]
+    },
+    "source_dataset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scenario_family_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "split_group_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "annotation_status": {
+      "enum": [
+        "UNREVIEWED",
+        "REVIEWED",
+        "ADJUDICATED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

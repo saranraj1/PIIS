@@ -1,0 +1,1 @@
+Adapters belong here. Keep source-specific parsing separate from canonical validation.

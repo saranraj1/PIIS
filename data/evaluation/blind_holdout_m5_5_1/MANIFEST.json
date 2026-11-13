@@ -1,0 +1,137 @@
+{
+  "dataset_name": "blind_holdout",
+  "sealed_at_utc": "2026-11-02T04:09:24.778844+00:00",
+  "total_records": 30,
+  "file_sha256": "4611b1a05696637bba2a16d2224e8111f369a9649a5044f81171038f6d6b0548",
+  "canonicalization": "RFC 8785 Canonical JSON (JCS)",
+  "hash_algorithm": "SHA-256",
+  "record_hashes": [
+    {
+      "id": "BLIND-M551-01",
+      "sha256": "b52a9279734a959d30569526d1309a829077655686a58df333cede2d32e695b4"
+    },
+    {
+      "id": "BLIND-M551-02",
+      "sha256": "9d74073f84048d24e0292b7d57d9b763215b1adbb046b029b1f0d996bd304f33"
+    },
+    {
+      "id": "BLIND-M551-03",
+      "sha256": "cf8f2d105f779099119bbc210ae30eb5f5e249e339174be8b627ea174d30feb8"
+    },
+    {
+      "id": "BLIND-M551-04",
+      "sha256": "9e34d4ea8d4f926678eac476171b590c0361ad84c428f3f2765fe0bf23e25683"
+    },
+    {
+      "id": "BLIND-M551-05",
+      "sha256": "2b9ae5b4f55243e544d5048a374b1edfd0d5e30fbae18bd3ca380782ee10f81a"
+    },
+    {
+      "id": "BLIND-M551-06",
+      "sha256": "dc38e0c6276e7d20f9689cd31fbc945bbe7f3f5735d4e9d79ef6990403223e7f"
+    },
+    {
+      "id": "BLIND-M551-07",
+      "sha256": "f0ca1dac65124809ce934629c7747d6ff4dc9bb764a874c1020f578a20201b6f"
+    },
+    {
+      "id": "BLIND-M551-08",
+      "sha256": "0c5b1ad55a4ff3c40acd545f3b491fb6a54b5fc366c6f142e88c76d61af17e23"
+    },
+    {
+      "id": "BLIND-M551-09",
+      "sha256": "985a03700977933a0c5b3b4a9bdca3f131da0f524691a7c549db97ea55823e78"
+    },
+    {
+      "id": "BLIND-M551-10",
+      "sha256": "9c673f18206e0b307e71b75e833a247f85108e513ba47de342acc086181de2de"
+    },
+    {
+      "id": "BLIND-M551-11",
+      "sha256": "b1709d486fb2b3aab48e4088e8bb7c0a5054d2be8a2967dca5ce51b7a8fbe831"
+    },
+    {
+      "id": "BLIND-M551-12",
+      "sha256": "d1049c10c49faced41d866d47471248dd5e9a437c7a1b3c5b67f6b54aaa53fa2"
+    },
+    {
+      "id": "BLIND-M551-13",
+      "sha256": "94b0110b750d8b8c061296278c6d77e3ad450fa370323b554bd5b90b7a7ac6e8"
+    },
+    {
+      "id": "BLIND-M551-14",
+      "sha256": "25bc59741c3333e73605d9401b15f3dfaeea86157aa36e11c80c4eb7df52f0c6"
+    },
+    {
+      "id": "BLIND-M551-15",
+      "sha256": "62b18030a5846d1e7402aa8efcd7c8914e9050603fb9e012c36e403b3300b995"
+    },
+    {
+      "id": "BLIND-M551-16",
+      "sha256": "16c86b08c6b8e7fab100db98cdfcb4c992319e90fa257e923aef632af9ee9951"
+    },
+    {
+      "id": "BLIND-M551-17",
+      "sha256": "02fa0f43b087f001dc8ff64ff9da227e9df9e12cb2fe2eee2566c8d2ee76aad6"
+    },
+    {
+      "id": "BLIND-M551-18",
+      "sha256": "f07f4b16bd820965ea7b4223a08b7c2d31ece57d0e32edfdc14ed18e3767f73a"
+    },
+    {
+      "id": "BLIND-M551-19",
+      "sha256": "3862bd7b4ded10c43fc53350ae252b8ea2f657d313f12d00480f5d8dee647be4"
+    },
+    {
+      "id": "BLIND-M551-20",
+      "sha256": "2bff6c0156334222feea9a7ca5672e40ba586f96e3127d2028dfef1f6da465d7"
+    },
+    {
+      "id": "BLIND-M551-21",
+      "sha256": "c905cbe83b7d171fc978b50c2b3555058c03bd31d4f48a9178bb8c8295cd2a06"
+    },
+    {
+      "id": "BLIND-M551-22",
+      "sha256": "a84d0a36023971978259924b944f8c678db44dbdb7ecccbd11c581362d9ef82e"
+    },
+    {
+      "id": "BLIND-M551-23",
+      "sha256": "54ce5155dd47e03f6545d46aa5bc66596a387a3f597b6eeb6f1385ddaebc3971"
+    },
+    {
+      "id": "BLIND-M551-24",
+      "sha256": "358f13b0690a4beb6e4a9de17c839fdb706cce6c3f4ed4d67e9f48b537694300"
+    },
+    {
+      "id": "BLIND-M551-25",
+      "sha256": "ae7b72e3fe4fa095ed95046acaccc533153d10cfe45d577a2195d968b0bc4d61"
+    },
+    {
+      "id": "BLIND-M551-26",
+      "sha256": "ebc594893b94e0e3c45ee7becfcb814f14634913a04e306da5cb126b25b03ddc"
+    },
+    {
+      "id": "BLIND-M551-27",
+      "sha256": "41674fedb6594082797adefc832216ace518c5b5460e05bfe6d3c574c9f5ddf8"
+    },
+    {
+      "id": "BLIND-M551-28",
+      "sha256": "cab621084ee9fd47fec76286f4bb026e0f2bd735c54c1ef6a5f9c92954bd55bb"
+    },
+    {
+      "id": "BLIND-M551-29",
+      "sha256": "5798ee615aac24bca65ef3b5a4e5f2936e22bd3199867eb607fc5d336665582f"
+    },
+    {
+      "id": "BLIND-M551-30",
+      "sha256": "e02b27516c6ffcaf553dcd35245ea563ef4459ecf2eb340d1f78a849638f2a42"
+    }
+  ],
+  "custody_model": {
+    "creator": "M5.5.1 Independent Revalidation Team (/gstack)",
+    "execution_policy": "STRICT_SINGLE_PASS_NO_TUNING",
+    "storage_location": "data\\evaluation\\blind_holdout_m5_5_1",
+    "governance_classification": "BLIND_EVALUATION_GATE"
+  },
+  "manifest_sha256": "b69012eb581edf5fb13b49ebe16be088bff538e681bd178f442b8ad250be73e0"
+}

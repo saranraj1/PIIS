@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piis.local/schemas/recommendation.schema.json",
+  "title": "PIIS Recommendation",
+  "type": "object",
+  "required": [
+    "recommendation_id",
+    "incident_id",
+    "decision",
+    "generated_at",
+    "evidence_refs",
+    "status"
+  ],
+  "properties": {
+    "recommendation_id": {
+      "type": "string"
+    },
+    "incident_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "HUMAN_REVIEW"
+      ]
+    },
+    "severity_recommendation": {
+      "enum": [
+        "CRITICAL",
+        "MAJOR",
+        "MINOR",
+        "WARNING",
+        "UNKNOWN"
+      ]
+    },
+    "observed_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "model_predictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "model_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "policy_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "PENDING_REVIEW",
+        "ACCEPTED",
+        "REJECTED",
+        "MODIFIED",
+        "EXPIRED"
+      ]
+    },
+    "reviewed_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,8 @@
+{
+  "origin": "scripts/audit_m5_3_fresh_holdout_gate.py",
+  "historical_role": "M5.3 evaluation gate (unsealed during M5.4 remediation)",
+  "current_status": "REGRESSION_SUITE",
+  "scenarios_count": 30,
+  "contains_abs_08": true,
+  "archived_at_utc": "2026-11-01T18:12:40.506919+00:00"
+}

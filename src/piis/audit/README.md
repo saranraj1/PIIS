@@ -1,0 +1,1 @@
+Record recommendation lifecycle, model/policy versions, evidence refs and human review decisions.

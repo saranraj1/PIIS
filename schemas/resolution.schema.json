@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piis.local/schemas/resolution.schema.json",
+  "title": "PIIS Resolution Record",
+  "type": "object",
+  "required": [
+    "resolution_record_id",
+    "incident_id",
+    "record_status",
+    "source_type"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "resolution_record_id": {
+      "type": "string"
+    },
+    "incident_id": {
+      "type": "string"
+    },
+    "record_status": {
+      "enum": [
+        "PROPOSED",
+        "IN_PROGRESS",
+        "CONFIRMED",
+        "REJECTED"
+      ]
+    },
+    "root_cause": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "investigation_steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resolution_steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "support_level": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "HUMAN_REVIEW",
+        "UNLABELED"
+      ]
+    },
+    "support_level_rationale": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_type": {
+      "enum": [
+        "PUBLIC_REAL",
+        "SYNTHETIC",
+        "DERIVED",
+        "HUMAN_ANNOTATED",
+        "OPERATOR_INTERNAL"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

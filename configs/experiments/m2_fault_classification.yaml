@@ -1,0 +1,41 @@
+# Experiment Configuration: M2 Fault Category Classification
+experiment_id: "EXP-M2-FAULT-001"
+description: "Leakage-safe fault category classification baselines on multi-family telecom benchmark"
+random_seed: 42
+
+data:
+  train_benchmark_path: "data/synthetic/synthetic_incidents_m2.jsonl"
+  ood_real_holdout_path: "data/processed/incidents/telecomts_incidents.jsonl"
+  group_column: "split_group_id"
+  target_column: "fault_category"
+
+feature_extraction:
+  max_tfidf_features: 500
+  ngram_range: [1, 2]
+  strict_leakage_quarantine: true
+
+models:
+  baseline_1:
+    model_type: "logistic_regression"
+    class_weight: "balanced"
+    max_iter: 1000
+    random_state: 42
+  baseline_2:
+    model_type: "random_forest"
+    n_estimators: 100
+    class_weight: "balanced"
+    random_state: 42
+
+evaluation:
+  cv_folds: 5
+  stratified_group_cv: true
+  independent_seed_holdout:
+    train_seed: 42
+    test_seed: 101
+  ood_transfer_evaluation: true
+
+outputs:
+  models_dir: "models/classifier"
+  metrics_path: "artifacts/m2_metrics/fault_classification_metrics.json"
+  confusion_matrix_path: "artifacts/m2_metrics/fault_confusion_matrix.json"
+  error_analysis_path: "artifacts/m2_metrics/fault_error_analysis.json"

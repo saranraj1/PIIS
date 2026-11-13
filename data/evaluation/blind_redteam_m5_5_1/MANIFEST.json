@@ -1,0 +1,217 @@
+{
+  "dataset_name": "blind_redteam",
+  "sealed_at_utc": "2026-11-02T04:09:24.813226+00:00",
+  "total_records": 50,
+  "file_sha256": "a7b4a5ae2b5686c8e927bf245251b49ddecae40231d3ba1b572557a57c81a9d7",
+  "canonicalization": "RFC 8785 Canonical JSON (JCS)",
+  "hash_algorithm": "SHA-256",
+  "record_hashes": [
+    {
+      "id": "RT-BLIND-01",
+      "sha256": "e1b9aee35de726beb2362fce68e8d01063f06dad5afee5563a7b3b4da140988b"
+    },
+    {
+      "id": "RT-BLIND-02",
+      "sha256": "6cec4ef6ec2e1502dcdb48e10e2c233b21ec90833a9d3814ba77594a56ee678d"
+    },
+    {
+      "id": "RT-BLIND-03",
+      "sha256": "c321054d2c806f5627c3d0216517dade1d4ae744f421ebfc5ee5bc18fc2fc167"
+    },
+    {
+      "id": "RT-BLIND-04",
+      "sha256": "5688fcca3369b00fd13ef1a769b40422e3dee458699f538087d824bb2368d8d9"
+    },
+    {
+      "id": "RT-BLIND-05",
+      "sha256": "22df09183c4f1ba89ddf60d1f0d814015255a63f721c8f78042e9812b0118d5e"
+    },
+    {
+      "id": "RT-BLIND-06",
+      "sha256": "9e818fb969f7f56285d9c775ed812e6f7527b230fc87db759e143fd970272b89"
+    },
+    {
+      "id": "RT-BLIND-07",
+      "sha256": "e2cc64f7eb84a89266b9791a5124fe524b891afabf66d8a74b15b7b6f03c2e56"
+    },
+    {
+      "id": "RT-BLIND-08",
+      "sha256": "1bf10e8fe6043546a47440eae6912274c0020ecedda22e9876282434877a78e1"
+    },
+    {
+      "id": "RT-BLIND-09",
+      "sha256": "bc993f3b0cc0be157082f5dcc36b2da39cfbd81a641e739b6da03f949d572618"
+    },
+    {
+      "id": "RT-BLIND-10",
+      "sha256": "732547c31f7cddd49cd27261edd297639b7ca82f7282d6d28d0b970483e656f0"
+    },
+    {
+      "id": "RT-BLIND-11",
+      "sha256": "a9b86d3788224f8bd9abac7d9fd7cd1b13d8cf3a70f5f3d967d76d49e7865167"
+    },
+    {
+      "id": "RT-BLIND-12",
+      "sha256": "1d2051e68a5281682eeedf95cf5328b91d8cf274d66fdd7726f8f56b0a852e04"
+    },
+    {
+      "id": "RT-BLIND-13",
+      "sha256": "e044287663066698eef02ff3ff561e340af82b7bee589118a2a83d23a7554879"
+    },
+    {
+      "id": "RT-BLIND-14",
+      "sha256": "179240b017bcac17b366e306ccaf87b38b51be105ec95e6d2d5bdb0210c72dcd"
+    },
+    {
+      "id": "RT-BLIND-15",
+      "sha256": "0c224b8b125cf3abe9040fe969f02a542c75b3446a2d6dbfd6e95f79d8d2215f"
+    },
+    {
+      "id": "RT-BLIND-16",
+      "sha256": "60a8934aa320cd4c47e5b61b1f9fb187ade69fe8a1d148adb9ed66af8728307a"
+    },
+    {
+      "id": "RT-BLIND-17",
+      "sha256": "9bb68e87078f551543728ee0d225e7addb2df70fbe08eb75757d6b2c46a59143"
+    },
+    {
+      "id": "RT-BLIND-18",
+      "sha256": "27fb53a070d2c8508c08b0240794f5715c0835b048a62bdc81013e83085381be"
+    },
+    {
+      "id": "RT-BLIND-19",
+      "sha256": "6732c9bfdf112b53444dd35a0e94112f7e0b0db10adb41575b718dabe5f836b9"
+    },
+    {
+      "id": "RT-BLIND-20",
+      "sha256": "c9bc7e1c715c742681389721a340720005c09eceb90ac15310d1b43c5fa98d83"
+    },
+    {
+      "id": "RT-BLIND-21",
+      "sha256": "0250eafb9ff545bc7c0bd0c184d599dd97655852c9dbbc77d0e60ae643ef8288"
+    },
+    {
+      "id": "RT-BLIND-22",
+      "sha256": "64e80a6a265516517ca7d40f16e5363de40cfaad640bffa2f6e05445623d43ae"
+    },
+    {
+      "id": "RT-BLIND-23",
+      "sha256": "77ef4259fd31847a5f1eef5dcc89f88eed8954ae531f059f5f3578229355aa15"
+    },
+    {
+      "id": "RT-BLIND-24",
+      "sha256": "a999dfb3094ccaf065bf8dbdd5eb3f8969191a32c6df972a0c8bf1a03edaad1d"
+    },
+    {
+      "id": "RT-BLIND-25",
+      "sha256": "ed6c7d4486306d28f8c1f03e745558470b0fccd73b7f9726164ab518e1707b3d"
+    },
+    {
+      "id": "RT-BLIND-26",
+      "sha256": "2e1e0b36c77661872598574f4c7cfc0843c6e61abadd447a261c4172d2243f5e"
+    },
+    {
+      "id": "RT-BLIND-27",
+      "sha256": "49ded9877463aded2a9e9b2ca3c60f0db2e3788ba017b51a6105809604ab4791"
+    },
+    {
+      "id": "RT-BLIND-28",
+      "sha256": "cb928bfa4d6e19a55638a5838a150117183e73eb5e9fa790a36b2e0660a6f7c7"
+    },
+    {
+      "id": "RT-BLIND-29",
+      "sha256": "8beca252d743b5cd67aacca8605e2f1525c9b043c6b1de5cec04c97bedbf87ae"
+    },
+    {
+      "id": "RT-BLIND-30",
+      "sha256": "3c9a54f9c930b9e5274426b99acf54b549ee2c581ad70bfb5fa20e6d9c42f718"
+    },
+    {
+      "id": "RT-BLIND-31",
+      "sha256": "5d6cc4d92b2e3dc4f02cff3064a91661253062a5b449b550a1b12f6012dead1c"
+    },
+    {
+      "id": "RT-BLIND-32",
+      "sha256": "54ad19df44b9ba1c01c6a562a631ef560e9b733b024f9294a07f9f89adb8921f"
+    },
+    {
+      "id": "RT-BLIND-33",
+      "sha256": "4d6dcba33786a53f462fdfe404cf96ce5750269506fa581fbfdafb21f86526d6"
+    },
+    {
+      "id": "RT-BLIND-34",
+      "sha256": "2b834117c79327b121018209037ffb9061ef1d61a1090a88882902aad6515ee7"
+    },
+    {
+      "id": "RT-BLIND-35",
+      "sha256": "9973fb5c5621b7961469b055993592869b11c15b7ab9fefe45438f043356c231"
+    },
+    {
+      "id": "RT-BLIND-36",
+      "sha256": "6719adf79d2d4ab4909f815f6117de6a0bb206eeeb7692f4fb5db0899cb59a4a"
+    },
+    {
+      "id": "RT-BLIND-37",
+      "sha256": "12aa02787dfd01f6f9f9b0dc4794029305f23a35821c0a422e575212e7b840ae"
+    },
+    {
+      "id": "RT-BLIND-38",
+      "sha256": "4de7596c4fc55ca2558810e8635736ab84ad645a0db669c7df05ad670bb8be0d"
+    },
+    {
+      "id": "RT-BLIND-39",
+      "sha256": "c891175510e1b919ff22adbac174a20ed6f28bc125c38f43c317e23d91a88ac6"
+    },
+    {
+      "id": "RT-BLIND-40",
+      "sha256": "60c92f35b660a385bfcca4bfc0c6719527c3b594e41b1f3c10c8e21463910f67"
+    },
+    {
+      "id": "RT-BLIND-41",
+      "sha256": "31d7498cfe8e10f265528ba7b9f76d051c27521d1195df8cf8e297da21a11b26"
+    },
+    {
+      "id": "RT-BLIND-42",
+      "sha256": "9386b602cd1ca1da83e1ce2e981e4f3fdc0d9b7e0648c3f2de5b4a214c923828"
+    },
+    {
+      "id": "RT-BLIND-43",
+      "sha256": "3ea24c721f33a15138da07e7d86419e750b31e8df6c0fda1c055da466ab7fd31"
+    },
+    {
+      "id": "RT-BLIND-44",
+      "sha256": "786965cde59857967b4f12eaa245b24170412421833b2d0b537c2530f173cc7f"
+    },
+    {
+      "id": "RT-BLIND-45",
+      "sha256": "e0841691a7ce1efc4e719bc34aa9e51c541e2bbf8a75b19b6788f5166662810b"
+    },
+    {
+      "id": "RT-BLIND-46",
+      "sha256": "bcb3225fe703f2fd3f59ecfa92fafdda0bba14bc9972c8a063f52bd341441b7d"
+    },
+    {
+      "id": "RT-BLIND-47",
+      "sha256": "90c6a88f6d2aa6a3853b43b6e242973359c513b00264475c81d73a55eb4090ae"
+    },
+    {
+      "id": "RT-BLIND-48",
+      "sha256": "51315e768d52057c14e0f522d7b92e2daf454ced0bd0e824c28e0610fd2f667c"
+    },
+    {
+      "id": "RT-BLIND-49",
+      "sha256": "f28aac37fceb7299b734b55829f3a76f6c3ba516412bf96e0875fa0cfd85b39e"
+    },
+    {
+      "id": "RT-BLIND-50",
+      "sha256": "443842d828457f0c0043e7becac966588626ede380f5bbc0582b52d7fc171579"
+    }
+  ],
+  "custody_model": {
+    "creator": "M5.5.1 Independent Revalidation Team (/gstack)",
+    "execution_policy": "STRICT_SINGLE_PASS_NO_TUNING",
+    "storage_location": "data\\evaluation\\blind_redteam_m5_5_1",
+    "governance_classification": "BLIND_EVALUATION_GATE"
+  },
+  "manifest_sha256": "9aa3d1dc45a86e3129a46cb3f334d40a2f6a6842ce2f17f9901c56e9e5c283a3"
+}

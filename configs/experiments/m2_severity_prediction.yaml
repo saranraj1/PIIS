@@ -1,0 +1,44 @@
+# Experiment Configuration: M2 Severity Prediction
+experiment_id: "EXP-M2-SEVERITY-001"
+description: "Pre-resolution operational severity prediction baseline with probability calibration"
+random_seed: 42
+
+data:
+  benchmark_path: "data/synthetic/synthetic_incidents_m2.jsonl"
+  group_column: "split_group_id"
+  target_column: "severity"
+  severity_tiers: ["WARNING", "MINOR", "MAJOR", "CRITICAL"]
+
+feature_extraction:
+  max_tfidf_features: 500
+  ngram_range: [1, 2]
+  strict_leakage_quarantine: true
+
+models:
+  baseline_1:
+    model_type: "logistic_regression"
+    class_weight: "balanced"
+    max_iter: 1000
+    random_state: 42
+  baseline_2:
+    model_type: "random_forest"
+    n_estimators: 100
+    class_weight: "balanced"
+    random_state: 42
+
+evaluation:
+  cv_folds: 5
+  stratified_group_cv: true
+  independent_seed_holdout:
+    train_seed: 42
+    test_seed: 101
+  metrics:
+    - "macro_f1"
+    - "high_severity_recall"
+    - "mean_brier_score"
+    - "calibration_curve"
+
+outputs:
+  models_dir: "models/severity"
+  metrics_path: "artifacts/m2_metrics/severity_prediction_metrics.json"
+  confusion_matrix_path: "artifacts/m2_metrics/severity_confusion_matrix.json"

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piis.local/schemas/evidence.schema.json",
+  "title": "PIIS Evidence Reference",
+  "type": "object",
+  "required": [
+    "evidence_id",
+    "evidence_type",
+    "source_type",
+    "source_ref"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string"
+    },
+    "evidence_type": {
+      "enum": [
+        "TICKET",
+        "ALARM",
+        "TELEMETRY",
+        "RUNBOOK",
+        "CHANGE_RECORD",
+        "HISTORICAL_CASE",
+        "MODEL_OUTPUT"
+      ]
+    },
+    "source_type": {
+      "enum": [
+        "PUBLIC_REAL",
+        "SYNTHETIC",
+        "DERIVED",
+        "HUMAN_ANNOTATED",
+        "OPERATOR_INTERNAL"
+      ]
+    },
+    "source_ref": {
+      "type": "string"
+    },
+    "observed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "excerpt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "trust_status": {
+      "enum": [
+        "UNVERIFIED",
+        "SOURCE_VALIDATED",
+        "HUMAN_CONFIRMED"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

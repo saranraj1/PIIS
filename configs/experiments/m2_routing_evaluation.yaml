@@ -1,0 +1,24 @@
+# Experiment Configuration: M2 Support-Level Routing Policy Evaluation
+experiment_id: "EXP-M2-ROUTING-001"
+description: "Deterministic support-tier routing policy evaluation with explicit HUMAN_REVIEW abstention auditing"
+deterministic_policy: true
+ml_training_permitted: false
+
+policy:
+  policy_file: "configs/routing_policy.example.yaml"
+  default_decision: "HUMAN_REVIEW"
+
+data:
+  benchmark_path: "data/synthetic/synthetic_incidents_m2.jsonl"
+  real_holdout_path: "data/processed/incidents/telecomts_incidents.jsonl"
+  target_column: "support_level_label"
+
+evaluation_targets:
+  - "macro_f1"
+  - "l2_escalation_recall"
+  - "false_escalation_rate"
+  - "human_review_abstention_rate"
+
+outputs:
+  metrics_path: "artifacts/m2_metrics/routing_policy_metrics.json"
+  decisions_path: "artifacts/m2_metrics/routing_decisions_log.json"
